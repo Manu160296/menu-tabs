@@ -1,0 +1,41 @@
+body{
+  font-family: sans-serif;
+}
+h1{
+  text-align: center;
+  font-size: 2em;
+}
+button{
+  width: 150px;
+  height: 50px;
+  border-style: none;
+  border-left: 2px solid black;
+  background-color: #FFC107;
+  color: #ffffff;
+  font-size: 1.5em;
+}
+button:hover{
+    background-color: #DCDCDC;
+    color:black;
+}
+.buttons-list li{
+  display: inline-block;
+  list-style: none;
+
+}
+article{
+  background-color: #DCDCDC;
+  margin: 10px 40px;
+  border-radius: 20px;
+
+}
+img{
+  width: 200px;
+  display: inline-block;
+}
+figure{
+  display: inline-block;
+}
+.more-options{
+  display: inline-block;
+}
