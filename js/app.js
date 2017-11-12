@@ -20,6 +20,13 @@ if (e.target.dataset.selectedCell=='breakfast'){
 
 
 var onLoad = function () {
+  var breakfast= document.getElementById('breakfast');
+  var luch = document.getElementById('lunch');
+  var dinner = document.getElementById('dinner');
+  breakfast.style.display='none';
+  lunch.style.display='none';
+  dinner.style.display='none';
+
   var cellsElements = document.getElementsByClassName('cell')
   for (var i = 0; i < cellsElements.length; i++) {
     cellsElements[i].addEventListener('click', showOptions)
